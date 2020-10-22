@@ -29,15 +29,12 @@
 // // пишет true
 
 // 3 Сравнение
-
-
-
 // const shouldRenew = confirm('Хотите продлить подписку?');
 // const userInput = prompt('Введите ваше имя');
 
 // console.log(userInput);
 
-// const userInput = prompt('Введите число 5!');
+// const userInput = prompt('Введите число 5');
 
 // console.log(userInput);
 // console.log(typeof userInput);
@@ -46,3 +43,9 @@
 // console.log(number);
 // console.log(typeof number);
 // console.log(number === 5);
+
+// операнды 5 и 2 
+// console.log(5 > 2)
+// пишет true
+
+ 
