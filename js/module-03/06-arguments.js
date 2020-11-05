@@ -169,3 +169,75 @@
 
 // console.log(findLongestWord('May the force be with you'));
 // // 'force'
+
+// ********************Задача2-4***************************
+// Задача 2-4
+// Форматирование строки в зависимости от длинны строки
+// Напиши функцию formatString(string, maxLength = 40) которая принимает строку и
+// форматирует ее если необходимо.
+
+// Если длина строки не превышает maxLength, функция возвращает ее в исходном виде.
+// Если длина больше maxLength, то функция обрезает строку до размера maxLength символов
+// и добавляет в конец строки троеточие ..., после чего возвращает укороченную версию.
+
+// Результатом вызова функции должна быть строка
+// Результатом вызова функции должна быть пустая строка, если аргумент - пустая строка
+// Для аргумента - строки 'Curabitur ligula sapien, tincidunt non.' результатом будет эта же строка
+// Для строки 'Vestibulum facilisis, purus nec pulvinar iaculis.' результатом должна быть строка 'Vestibulum facilisis, purus nec pulvinar...'
+// Для строки 'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.' результатом должна быть строка 'Nunc sed turpis. Curabitur a felis in nu...'
+// Для строки 'Curabitur ligula sapien.' результатом будет эта же строка
+// Ожидается использование метода '.length'
+// Для строки 'Vestibulum facilisis, purus nec pulvinar iaculis.' и maxLength = 30 результатом должна быть строка 'Vestibulum facilisis, purus ne...'
+
+// function formatString(string, maxLength = 40) {
+   
+//     let Biges = '';
+//     if (string.length <= maxLength) {
+
+//       return string ;
+//     }
+//    Biges = string.slice(0, maxLength) + '...';
+//     return Biges;
+// }
+
+// console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
+// // 'Curabitur ligula sapien, tincidunt non.'
+
+// console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
+// // 'Vestibulum facilisis, purus nec pulvinar...'
+
+// console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.', 30));
+// // 'Vestibulum facilisis, purus ne...'
+
+// Задача 2-5*******************************************************************************************************
+// Функция предикат
+// Функция предикат возвращает true или false
+
+// Напиши функцию checkForSpam(message), принимающую 1 параметр message - строку.
+// Функция проверяет ее на содержание слов spam и sale.Если нашли запрещенное слово то функция возвращает true,
+// если запрещенных слов нет функция возвращает false.Слова в строке могут быть в произвольном регистре.
+
+// Результатом вызова функции должен быть булеан
+// Результатом вызова функции должна false, если аргумент - пустая строка
+// Для аргумента - строки 'Latest technology news' результатом будет false
+// Для аргумента - строки 'JavaScript weekly newsletter' результатом будет false
+// Для аргумента - строки 'Get best sale offers now!' результатом будет true
+// Для аргумента - строки '[SPAM] How to earn fast money?' результатом будет true
+// Ожидается использование метода '.includes'
+// Ожидается использование метода '.toLowerCase'
+// Код должен содержать функцию
+
+function checkForSpam (str) { 
+  'use strict';
+  // Write code under this line
+  
+}
+
+console.log(checkForSpam('Latest technology news')); // false
+
+console.log(checkForSpam('JavaScript weekly newsletter')); // false
+
+console.log(checkForSpam('Get best sale offers now!')); // true
+
+console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
+
