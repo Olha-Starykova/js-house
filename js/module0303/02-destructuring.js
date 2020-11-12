@@ -27,7 +27,7 @@
 // //   stars: 5,
 // //   capacity: 100,
 // // };
-
+//переименовываем имя
 // // const { name: hotelName = 'qwe', stars, capacity } = hotel;
 // // console.log(hotelName);
 
@@ -39,7 +39,7 @@
 //   tag: 'jgluke',
 //   location: 'Ocho Rios, Jamaica',
 //   avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/r_oy/128.jpg',
-//   stats: {
+//   stats: { //тоже обьект
 //     followers: 5603,
 //     views: 4827,
 //     likes: 1308,
@@ -51,6 +51,8 @@
 //     },
 //   },
 // };
+
+//декструкторизируем
 
 // const {
 //   name,

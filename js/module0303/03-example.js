@@ -32,4 +32,4 @@
 // const markup = makeProfileMarkup(profile);
 // console.log(markup);
 
-// document.body.insertAdjacentHTML('afterbegin', markup);
+//  document.body.insertAdjacentHTML('afterbegin', markup);
