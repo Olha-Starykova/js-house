@@ -2,10 +2,10 @@
  * Собираем ввод пользователя и что-то с ним делаем :)
  */
 
-const valueInputRef = document.querySelector('.js-value');
-const addValueBtn = document.querySelector('.js-add-value');
-const calcBtn = document.querySelector('.js-calculate');
-const numbers = [];
+// const valueInputRef = document.querySelector('.js-value');
+// const addValueBtn = document.querySelector('.js-add-value');
+// const calcBtn = document.querySelector('.js-calculate');
+// const numbers = [];
 // let total = 0;
 
 // addValueBtn.addEventListener('click', function () {
