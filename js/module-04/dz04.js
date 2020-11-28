@@ -36,7 +36,7 @@
 //     // Write code under this line
    
 //     const numbers = new Array(array.length);
-//     debugger
+//     
 //     for (let i = 0; i < array.length; i += 1) {
 //         const element = array[i];
 //         const index = i;
@@ -321,6 +321,7 @@
       
 //         return this.age < 18 ? `${this.name} нельзя` : `${this.name} можно`
 //     }
+    
 // }
 // console.log(user.is18())
 
@@ -340,23 +341,25 @@
 // console.log(olga.is18()) // Olga можно
 
 // меняем значения ключей через функцию
-const user = {
-    firtName: 'Ivan',
-    lactName: 'Test',
-    age: 16,
-    is18() {
+// const user = {
+//     firtName: 'Ivan',
+//     lactName: 'Test',
+//     age: 16,
+//     is18() {
 
-        return this.age < 18 ? `${this.firtName} нельзя` : `${this.firtName} можно`;
-    }
-    setFullName(fullName) { ////??
-        arr = fullName.split(' ');
-        this.firtName = arr[0];
-        this.lactName = arr[1];
-        return 
-    }
-}
-console.log(user.setFullName('Alex Test2'))
-console.log(user)
+//         return this.age < 18 ? `${this.firtName} ` : `${this.firtName} `;
+//     }
+//     setFullName(fullName) { ////??
+//         arr = fullName.split(' ');
+//         this.firtName = arr[0];
+//         this.lactName = arr[1];
+//         return;
+//     }
+// }
+// console.log(user.setFullName(['Alex Test2']))
+// console.log(user)
+
+
 
 // перебор обекта
 
@@ -445,6 +448,7 @@ console.log(hotelName, stars, hotelStatus);
 
 let { name: Viski = 'test' } = hotel;
 console.log(Viski)*/
+
 
 
 

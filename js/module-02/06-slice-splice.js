@@ -3,8 +3,8 @@
  * Удалить, добавить, обновить
  */
 
-const cards = ['card-1', 'card-2', 'card-3', 'card-4', 'card-5'];
-console.log(cards);
+// const cards = ['card-1', 'card-2', 'card-3', 'card-4', 'card-5'];
+// console.log(cards);
 
 // const cardToRemove = 'card-3';
 // const index = cards.indexOf(cardToRemove);
