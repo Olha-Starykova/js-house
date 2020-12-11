@@ -1,10 +1,11 @@
-// // const hotel = {
-// //   name: 'Resort Hotel',
-// //   stars: 5,
-// //   capacity: 100,
-// // };
+const hotel = {
+  name: 'Resort Hotel',
+  stars: 5,
+  capacity: 100,
+};
 
-// // const { name = '', stars = 1, capacity = 0 } = hotel;
+const { name = '', stars = 1, capacity = 0 } = hotel;
+console.log(name, stars);
 
 // // console.log(stars);
 
@@ -95,3 +96,6 @@
 // console.log(profile);
 
 // const a = { ...{ x: 1 }, ...{ y: 3 } };
+
+
+ 

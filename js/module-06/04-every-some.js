@@ -36,3 +36,4 @@ const anyHardcorePlayers = players.some(function (player) {
   return player.timePlayed > 400;
 });
 // console.log('anyHardcorePlayers: ', anyHardcorePlayers);
+ 
