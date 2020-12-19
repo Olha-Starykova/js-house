@@ -41,7 +41,7 @@ Manager.prototype.changeName = function (name) {
 // poly.changeName('Pollllly');
 // console.log(poly);
 
-//======================================================================================================задача 5-1
+//============================================================================задача 5-1==========================
 
 /**Напиши функцию-конструктор Account,
  *  которая создает объект со свойствами login и email.
@@ -51,18 +51,18 @@ Manager.prototype.changeName = function (name) {
 
   // Write code under this line
 
-// const Account = function (login, email) {
-//     this.login = login;
-//     this.email = email;
-// };
+const Account = function (login, email) {
+    this.login = login;
+    this.email = email;
+};
 
-// Account.prototype.getInfo = function () {
-//     let string = '';
-//    string = `login : ${this.login}, email: ${this.email}`
-//     //  (`login : ${this.login}, email : ${this.email}`);
-//     return string
+Account.prototype.getInfo = function () {
+    let string = '';
+   string = `login : ${this.login}, email: ${this.email}`
+    //  (`login : ${this.login}, email : ${this.email}`);
+    return string
 
-// }; 
+}; 
 
 
 
