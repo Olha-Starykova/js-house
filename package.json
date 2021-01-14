@@ -1,0 +1,29 @@
+{
+  "name": "js-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olha-Starykova/js-house.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olha-Starykova/js-house/issues"
+  },
+  "homepage": "https://github.com/Olha-Starykova/js-house#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
