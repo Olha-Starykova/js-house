@@ -60,3 +60,60 @@
 // }
 
 // console.log(price);
+// const x = 1;
+// const x = 'hello';
+// console.log(x)
+
+// let b = 20;
+// if (true) {
+   
+//     console.log(b);
+//     let b = 10;
+// };
+
+// const x;
+// x = 1;
+// console.log(x)
+
+// const MAX = 10;
+// let amount = 0;
+// while (amount++ < MAX) {
+//     let sum = amount
+// }
+// console.log(sum)
+
+// const person = {
+//     age: 10,
+//     setAge(newAge) {
+//         this.age = newAge;
+//     },
+//     refreshAge(userid) {
+//         fetchAgeFromDb(function (newAge) {
+//             this.setAge(newAge);
+//         });
+//     },
+// };
+
+// function fetchAgeFromDb(cb) {
+//     cb(20);
+// }
+
+// person.refreshAge();
+// console.log(person.age)
+
+// const add = (a = 0, b = 10) => a + b;
+// const sum = add(10);
+// console.log(sum)
+
+// const sum = (...numbers) => numbers.reduce((acc, number) => acc + number, 2);
+// const answer = sum(1, 5, 20, 10);
+// console.log(answer)
+
+// const multiplyByValue = (value, base, ...numbers) => {
+//     return numbers.map(number => number * value + base);
+// };
+// console.log(multiplyByValue(2, 100, 1, 5, 20, 10))
+
+// const names = ['bob', ...['donald'], 'suzy', 'lacy', ...['richard', 'alex']];
+// console.log(names)
+
